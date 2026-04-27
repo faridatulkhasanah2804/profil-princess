@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Princess</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #fff0f5;
+        }
+
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+
+
+        .kiri {
+            width: 60%;
+            padding: 70px;
+            background: #d6a3b8;
+            color: #523b47;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .kiri h1 {
+            font-size: 64px;
+            line-height: 1.1;
+            font-family: 'Playfair Display', serif;
+            font-weight: 900;
+            margin: 0 0 10px 0;
+        }
+
+        .kiri h1 span {
+            color: #ffffff;
+        }
+
+        .kiri p {
+            margin: 0 0 25px 0;
+            font-size: 18px;
+        }
+
+        .kiri h2 {
+            margin-top: 50px;
+            font-size: 36px;
+            color: #5a3e4d;
+            font-family: 'Poppins', serif;
+        }
+
+
+        .grid {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .kartu {
+            width: 150px;
+            background-color: #f8c8dc;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: 0.3s ease;
+            cursor: pointer;
+        }
+
+        .kartu:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+        }
+
+        .kartu h3 {
+            margin: 0;
+            padding: 13px;
+            color: #5a3e4d;
+            border-radius: 12px 12px 0 0;
+            font-size: 18px;
+        }
+
+        .kartu p {
+            padding: 13px;
+            margin: 0;
+            color: #5a3e4d;
+        }
+
+
+        .sosmed a {
+            display: inline-block;
+            margin-right: 15px;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #5a3e4d;
+            font-weight: 600;
+            background: #f8c8dc;
+            padding: 8px 15px;
+            border-radius: 20px;
+            
+        }
+
+
+
+
+        .kanan {
+            width: 40%;
+            background: linear-gradient(to bottom, #ffd6e8, #f8c8dc);
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .kanan img {
+            width: 290px;
+            height: 330px;
+            border-radius: 50%;
+            border: 6px solid #ffffff;
+            object-fit: cover;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+            margin-bottom: 25px;
+        }
+
+        .kanan h2 {
+            font-family: 'Poppins', serif;
+            font-size: 36px;
+            color: #5a3e4d;
+            margin-bottom: 10px;
+        }
+
+        .about p {
+            color: #5a3e4d;
+            text-align: center;
+            font-size: 16px;
+            max-width: 400px;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 900px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .kiri, .kanan {
+                width: 100%;
+                padding: 40px;
+            }
+
+            .kiri h1 {
+                font-size: 46px;
+            }
+
+            .kanan img {
+                width: 220px;
+                height: 250px;
+            }
+
+            .grid {
+                justify-content: center;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="kiri">
+            <h1>FARIDATUL <span>KHASANAH</span></h1>
+            <p>Mahasiswa Teknologi Informasi</p>
+
+            <h2>My Hobbies</h2>
+            <div class="grid">
+                <div class="kartu">
+                    <h3>🎙️</h3>
+                    <p>Singing</p>
+                </div>
+
+                <div class="kartu">
+                    <h3>📖</h3>
+                    <p>Reading</p>
+                </div>
+
+                <div class="kartu">
+                    <h3>🎨</h3>
+                    <p>Drawing</p>
+                </div>
+            </div>
+
+            <h2>Social Media</h2>
+            <div class="sosmed">
+                <a href="https://www.instagram.com/faridkhsnh?igsh=bGl6cWw0a3RqbzE3" target="_blank">Instagram</a>
+                <a href="https://www.linkedin.com/in/faridatul-khasanah-337028393?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+                <a href="https://github.com/faridatulkhasanah2804" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+
+        <div class="kanan">
+            <img src="foto1.jpg" alt="Foto Profil">
+
+            <div class="about">
+                <h2>About Me</h2>
+                <p>
+                    Faridatul Khasanah adalah seorang anak yang memiliki cita-cita tinggi.
+                    menjalani hidup dengan penuh semangat dan tekad untuk mencapai impian-impian yang besar. 
+                    ia bertekad untuk berusaha membanggakan kedua orang tuanya dan seluruh keluarganya.
+                    Dan dia berharap dengan masuk di prodi Teknologi Informasi, dia bisa mengembangkan skillnya dan bisa menjadi seorang yang sukses di bidang teknologi informasi.
+
+                </p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
